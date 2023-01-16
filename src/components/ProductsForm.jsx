@@ -46,7 +46,9 @@ const ProductsForm = ({createProduct, productSelectedData, updateProduct}) => {
                     <input
                     id="product-name"
                     type="text"
-                    {...register('name')}
+                    {...register('name', {
+                        required: true
+                    })}
                     />
                 </div>
                 <div className="input-product">
@@ -55,7 +57,9 @@ const ProductsForm = ({createProduct, productSelectedData, updateProduct}) => {
                     <input
                     id="product-category"
                     type="text"
-                    {...register('category')}
+                    {...register('category', {
+                        required: true
+                    })}
                     />
                 </div>
                 <div className="input-product">
@@ -64,7 +68,9 @@ const ProductsForm = ({createProduct, productSelectedData, updateProduct}) => {
                     <input
                     id="product-price"
                     type="number"
-                    {...register('price')}
+                    {...register('price', {
+                        required: true
+                    })}
                     />
                 </div>
                 <div className="isAvailable">
