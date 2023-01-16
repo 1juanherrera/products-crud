@@ -49,7 +49,7 @@ function App() {
 
   return (
     <div>
-      <h1>CRUD PRODUCTS</h1>
+      <h1>ADMINISTRAR PRODUCTOS</h1>
       <div className='App'>
       < ProductsForm 
       createProduct={(data) => addProduct(data)}
