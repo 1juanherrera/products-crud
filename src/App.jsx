@@ -25,6 +25,7 @@ function App() {
     .post(`https://products-crud.academlo.tech/products/`, data)
     .then(() => getApiProducts())
     .catch(error => console.error(error))
+
   }
 
   const deleteProduct = (productId) => {
@@ -62,6 +63,7 @@ function App() {
       deleteProduct={deleteProduct}
       />
       </div>
+
     </div>
   )
 }

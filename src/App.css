@@ -123,7 +123,7 @@ h4 {
   border: 1px solid #91908E;
   width: 280px;
   height: 300px;
-  margin: 20px;
+  margin-left: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
