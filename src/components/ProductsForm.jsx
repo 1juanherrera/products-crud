@@ -7,7 +7,6 @@ const ProductsForm = ({createProduct, productSelectedData, updateProduct}) => {
 
     const { register, handleSubmit, reset } = useForm()
 
-
     const getFormProducts = (data) => {
         if(productSelectedData){
             updateProduct(data)
